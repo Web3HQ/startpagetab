@@ -6,7 +6,7 @@ A simple and minimal terminal style start page with [Dracula](https://draculathe
 
 Code borrowed from https://gitlab.com/madsouris/startpage. I just pimped it a bit up and changed the colors for my setup. 
 
-![screenshot](Screenshot from 2021-01-26 03-15-02.png)
+![screenshot](Screenshot from 2021-01-26 07-36-59.png)
 
 Live preview [here](https://cocky-fermat-c0aaaf.netlify.app/)
 

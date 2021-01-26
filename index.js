@@ -23,6 +23,22 @@ function updateTime(k) {
 currentTime();
 
 //store the quotations in arrays
+randbackgrounds = new Array(5);
+randbackgrounds[0] = `<style>body{background:url(tumblr_0c141596ee67032d4e8ec627ec8bcaa3_c20e9462_500.gif);background-size:cover}</style>`;
+randbackgrounds[1] = `<style>body{background:url(tumblr_lollinapolina_mibqywp5Xo1s5t1i4o1_thanksforthis.gif);background-size:cover}</style>`;
+randbackgrounds[2] = `<style>body{background:url(tumblr_mt6ckbr7nY1rl1c0bo1_500.gif);background-size:cover}</style>`;
+randbackgrounds[3] = `<style>body{background:url(tumblr_mxt1z3M4zj1rl1c0bo1_500.gif);background-size:cover}</style>`;
+randbackgrounds[4] = `<style>body{background:url(tumblr_oeor4w91fG1vx777ao1_500.gif);background-size:cover}</style>`;
+//randbackgrounds[5] = ``;
+//randbackgrounds[6] = ``;
+//calculate a random index
+index = Math.floor(Math.random() * randbackgrounds.length);
+//display the quotation
+document.querySelector(".stylescontainer").innerHTML = `\n`;
+document.querySelector(".stylescontainer").innerHTML = randbackgrounds[index];
+//done
+
+//store the quotations in arrays
 quotes = new Array(4);
 quotes[0] = `<img width="50px" src="kitty-fish.svg"><h4>Did you knew?</h4><p>Fish is the best meal (what kitties calls as "meaw")! Eating fishes gives you increased health (except when you gulp spines). But because of polution, you should prefer fishes raised on pools/farms.</p>`;
 quotes[1] = `<img width="50px" src="space-cat.svg"><h4>A true SpaceCat</h4><p>Soon, Internet Cat will support more networks, give you more ways of monetization, block ads and (really) protect your privacy. Plasmozill Firefloflis already have part of it ❤</p>`;
@@ -53,6 +69,10 @@ browser.topSites.get()
       li.className = 'list-group-item';
       let a = document.createElement('a');
       a.href = site.url;
+      a.title = site.url;
+      a.innerText = topSite.favicon;
+      a.innerText = topSite.icon;
+      a.innerText = site.favicon;
       a.innerText = site.icon;
       a.innerText = site.title || site.url;
       li.appendChild(a);
@@ -64,5 +84,6 @@ browser.topSites.get()
   
 var gettingTopSites = browser.topSites.get({
   newtab: true,
-  includeFavicon: true
+  includeFavicon: true,
+  limit: 8
 });
