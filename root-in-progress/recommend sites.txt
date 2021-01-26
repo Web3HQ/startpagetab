@@ -1,0 +1,12 @@
+
+    github: 'github.com' ,
+    reddit: 'reddit.com' ,
+    gmail: 'mail.google.com' ,
+    figma: 'figma.com' ,
+    bitbucket: 'bitbucket.com' ,
+    youtube: 'youtube.com' ,
+    dev.to: 'dev.to' ,
+    devdocs: 'devdocs.io' ,
+    draw.io: 'draw.io' ,
+    twitter: 'twitter.com' ,
+

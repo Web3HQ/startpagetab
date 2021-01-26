@@ -4,162 +4,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plasmozilla Firefloflis' Start Page</title>
-    <link rel="shortcut icon" href="./img/home.svg#badge" type="image/x-icon">
-    <link rel="icon" href="./img/home.svg#icon#badge" type="image/svg">
+    <title>Start page - Plasmozill Firefloflis</title>
+    <link rel="shortcut icon" href="./space-cat.svg" type="image/x-icon">
+    <link rel="icon" href="./img/space-cat.svg" type="image/svg">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-<h1>Plasmozilla Firefloflis' Start Page</h1>
-<p>This extension should not only work as an New Tab Start Page for your browser, but futurelly it will also work as an hybrid extension, communicating with an native application (such as accessing and managing IPFS pins).</p>
-<p>A complete redesign will happen on this page.</p>
-<p>What you see bellow, is the remaining original work from <a href="https://github.com/Mofiqul/termpage" target="blank">@Mofiqul/termpage</a>.</p>
-<p>We are very thankful for this amazing work, which enabled Floflis to make its own start page addon:</p>
-
-    <div class="container">
-
-        <p>
-            <span class="prompt">
-                floflisnewtab@floflisnewtab
-            </span>
-
-            <img src="./img/ubuntu.svg">
-            ~/
-            <img src="./img/home.svg#icon">
-            /startpage
-            <img src="./img/straight-right-arrow.svg"> cat
-            <span class="prompt-text">
-                index.ts
-            </span>
             <span class="prompt clock-area" style="float: right; margin-top: 5px;">
                 <img src="./img/wall-clock.svg">
                 <span class="clock"></span>
-            </span>
-        </p>
+            </span><br/><br/>
 
-        <p>
-            <span class="syn">
-                const
-            </span>
-            <span class="name">
-                app
-            </span>
-            <span class="symbol">:</span>
-            <span class="types">Startpage</span>
-            <span class="syn">
-                = new
-            </span>
-            <span class="types">
-                StartPage({
-            </span>
+<center>
+<h3>Search the Web</h3>
+<form method="get" action="https://www.qwant.com/">
+<div style="border:1px solid black;padding:4px;width:20em;">
+<input type="text" placeholder="Enter keywords" name="q" autofocus autocomplete="off" size="25"
+maxlength="255" value="" /> <input type="submit" value="Qwant Search" />
+</div>
+</form>
+<small>Soon, Internet Cat will support a variety of search engines. Not only on this start page and in address bar, you will be able to search even from your system-tray and desktop! In mobile browser, it will also have search widgets for launcher.</small>
+</center>
 
-            <ul>
-                <li>
-                    <span class="name">el:</span>
-                    <span class="value">'#start'</span>
-                    <span class="name">,</span>
-                </li>
-                <li>
-                    <span class="name">pinned: {</span>
-                    <ul>
-                        <li>
-                            <a href="https://github.com" rel="noreferrer">
-                                <span class="name">github:</span>
-                                <span class="value">'github.com'</span>
-                                <span class="name">,</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://reddit.com" rel="noreferrer">
-                                <span class="name">reddit:</span>
-                                <span class="value">'reddit.com'</span>
-                                <span class="name">,</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://mail.google.com" rel="noreferrer">
-                                <span class="name">gmail:</span>
-                                <span class="value">'mail.google.com'</span>
-                                <span class="name">,</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://figma.com" rel="noreferrer">
-                                <span class="name">figma:</span>
-                                <span class="value">'figma.com'</span>
-                                <span class="name">,</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://bitbucket.com" rel="noreferrer">
-                                <span class="name">bitbucket:</span>
-                                <span class="value">'bitbucket.com'</span>
-                                <span class="name">,</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://youtube.com" rel="noreferrer">
-                                <span class="name">youtube:</span>
-                                <span class="value">'youtube.com'</span>
-                                <span class="name">,</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://dev.to" rel="noreferrer">
-                                <span class="name">dev.to:</span>
-                                <span class="value">'dev.to'</span>
-                                <span class="name">,</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://devdocs.io/" rel="noreferrer">
-                                <span class="name">devdocs:</span>
-                                <span class="value">'devdocs.io'</span>
-                                <span class="name">,</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://draw.io" rel="noreferrer">
-                                <span class="name">draw.io:</span>
-                                <span class="value">'draw.io'</span>
-                                <span class="name">,</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/home" rel="noreferrer">
-                                <span class="name">twitter:</span>
-                                <span class="value">'twitter.com'</span>
-                                <span class="name">,</span>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <span class="name">}</span>
-                </li>
-            </ul>
-            <span class="name">
-                })
-            </span>
-        </p>
+<p>This extension should not only work as an New Tab Start Page for your browser, but futurelly it will also work as an hybrid extension, communicating with an native application (such as accessing and managing IPFS pins).</p>
+<p>A complete redesign will happen on this page.</p>
+            
+<h3>Recommend sites:</h3>
+<ul>
+<li><a href="https://ipfs.eternum.io/ipfs/QmRWeczoWjVoZSY4cvTAp6YaGJSwYJSWvANHXaHiNVd8to/">IPFessay - Easily publish uncensorable essays</a></li>
+<li><a href="https://ipfs.io/ipfs/QmYod4boDtmGjgoWngFxLgvYqXvP6vwdUuuWDBhjNbx25C/">Intergalactic Website</a></li>
+</ul>
 
-        <p>
-            <form action="https://www.qwant.com/" method="get">
-                <span class="prompt">
-                    floflisnewtab@floflisnewtab
-                </span>
+<hr/>
 
-                <img src="./img/ubuntu.svg">
-                ~/
-                <img src="./img/home.svg#icon">
-                /startpage
-                <img src="./img/straight-right-arrow.svg"> d
-                <input type="search" placeholder="Enter keywords" name="q" autofocus autocomplete="off">
-            </form>
-        </p>
-    </div>
+<center><script>
+//store the quotations in arrays
+quotes = new Array(4);
+quotes[0] = `<img width="50px" src="kitty-fish.svg"><h4>Did you knew?</h4><p>Fish is the best meal (what kitties calls as "meaw")! Eating fishes gives you increased health (except when you gulp spines). But because of polution, you should prefer fishes raised on pools/farms.</p>`;
+quotes[1] = `<img width="50px" src="space-cat.svg"><h4>A true SpaceCat</h4><p>Soon, Internet Cat will support more networks, give you more ways of monetization, block ads and (really) protect your privacy. Plasmozill Firefloflis already have part of it ❤</p>`;
+quotes[2] = `<img width="50px" src="adopted.svg"><h4>Adopt a pet</h4><p>Your overall health will improve a lot! A dog will keep you lovely and energized, and your cat's purr is relaxing and will make you mindful (or mindfurr). But focus on polyalergenic animals if you have respiratory problems, even more on these difficult times of COVID-19.</p><br/><a href="https://ipfs.io/ipfs/QmW7oUoWwtZPSgG9zFfdxEEquNNt2wB2Y5rTnJ86jTVhA7/"><button><img width="64px" src="adopt-pet-now.svg"/><br/><span style="font-size:32px">Adopt a pet now!</span></button></a>`;
+quotes[3] = `<img width="50px" src="kitty-sleep.svg"><h4>Sleep is power</h4><p>Sleep isn't just ok; it is a need. Also, sleep isnt't just a power nap; sleep is power. If they calls you a bum for sleeping, don't worry. People like Albert Einstein loved to take a extra sleep ;)</p><p><small>And for sure, the persons who laughes at you are way farther from Einstein than you, literally.</small></p>`;
+//quotes[4] = ``;
+//quotes[5] = ``;
+//calculate a random index
+index = Math.floor(Math.random() * quotes.length);
+//display the quotation
+document.write(`\n`);
+document.write(quotes[index]);
+//done
+</script></center>
 
 </body>
 <script src="./index.js"></script>
