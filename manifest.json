@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Plasmozill Firefloflis' Start Page",
   "short_name": "floflisnewtab",
-  "version": "3.7.0",
+  "version": "3.7.2",
   "description": "This extension should not only work as an New Tab Start Page for your browser, but futurelly it will also work as an hybrid extension, communicating with an native application (such as accessing and managing IPFS pins).",
   "author": "Plasmmer",
 

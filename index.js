@@ -24,11 +24,11 @@ currentTime();
 
 //store the quotations in arrays
 randbackgrounds = new Array(5);
-randbackgrounds[0] = `<style>body{background:url(tumblr_0c141596ee67032d4e8ec627ec8bcaa3_c20e9462_500.gif);background-size:cover}</style>`;
-randbackgrounds[1] = `<style>body{background:url(tumblr_lollinapolina_mibqywp5Xo1s5t1i4o1_thanksforthis.gif);background-size:cover}</style>`;
-randbackgrounds[2] = `<style>body{background:url(tumblr_mt6ckbr7nY1rl1c0bo1_500.gif);background-size:cover}</style>`;
-randbackgrounds[3] = `<style>body{background:url(tumblr_mxt1z3M4zj1rl1c0bo1_500.gif);background-size:cover}</style>`;
-randbackgrounds[4] = `<style>body{background:url(tumblr_oeor4w91fG1vx777ao1_500.gif);background-size:cover}</style>`;
+randbackgrounds[0] = `<style>body{background:url(https://ipfs.io/ipfs/QmQUJGHkiUwKeSrEypUK9p2T9zMNnndu9UC2dCJKkgsBSx/tumblr_0c141596ee67032d4e8ec627ec8bcaa3_c20e9462_500.gif);background-size:cover}</style>`;
+randbackgrounds[1] = `<style>body{background:url(https://ipfs.io/ipfs/QmQUJGHkiUwKeSrEypUK9p2T9zMNnndu9UC2dCJKkgsBSx/tumblr_lollinapolina_mibqywp5Xo1s5t1i4o1_thanksforthis.gif);background-size:cover}</style>`;
+randbackgrounds[2] = `<style>body{background:url(https://ipfs.io/ipfs/QmQUJGHkiUwKeSrEypUK9p2T9zMNnndu9UC2dCJKkgsBSx/tumblr_mt6ckbr7nY1rl1c0bo1_500.gif);background-size:cover}</style>`;
+randbackgrounds[3] = `<style>body{background:url(https://ipfs.io/ipfs/QmQUJGHkiUwKeSrEypUK9p2T9zMNnndu9UC2dCJKkgsBSx/tumblr_mxt1z3M4zj1rl1c0bo1_500.gif);background-size:cover}</style>`;
+randbackgrounds[4] = `<style>body{background:url(https://ipfs.io/ipfs/QmQUJGHkiUwKeSrEypUK9p2T9zMNnndu9UC2dCJKkgsBSx/tumblr_oeor4w91fG1vx777ao1_500.gif);background-size:cover}</style>`;
 //randbackgrounds[5] = ``;
 //randbackgrounds[6] = ``;
 //calculate a random index
@@ -70,8 +70,8 @@ browser.topSites.get()
       let a = document.createElement('a');
       a.href = site.url;
       a.title = site.url;
-      a.innerText = topSite.favicon;
-      a.innerText = topSite.icon;
+      //a.innerText = topSite.favicon;
+      //a.innerText = topSite.icon;
       a.innerText = site.favicon;
       a.innerText = site.icon;
       a.innerText = site.title || site.url;
