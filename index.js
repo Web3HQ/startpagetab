@@ -39,10 +39,10 @@ document.querySelector(".randomfooter").innerHTML = quotes[index];
 
 browser.topSites.get()
   .then((sites) => {
-    var div = document.getElementById('site-list');
+    var divtopsites = document.getElementById('site-list');
 
     if (!sites.length) {
-      div.innerText = 'No sites returned from the topSites API.';
+      divtopsites.innerText = 'No sites returned from the topSites API.';
       return;
     }
 
@@ -53,10 +53,15 @@ browser.topSites.get()
       li.className = 'list-group-item';
       let a = document.createElement('a');
       a.href = site.url;
-      a.innerText = site.title || site.url;
+      a.innerText = site.favicon + site.title || site.url;
       li.appendChild(a);
       ul.appendChild(li);
     }
 
-    div.appendChild(ul);
+    divtopsites.appendChild(ul);
   });
+  
+var gettingTopSites = browser.topSites.get({
+  newtab: true,
+  includeFavicon: true
+});
