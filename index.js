@@ -53,7 +53,8 @@ browser.topSites.get()
       li.className = 'list-group-item';
       let a = document.createElement('a');
       a.href = site.url;
-      a.innerText = site.favicon + site.title || site.url;
+      a.innerText = site.icon;
+      a.innerText = site.title || site.url;
       li.appendChild(a);
       ul.appendChild(li);
     }
