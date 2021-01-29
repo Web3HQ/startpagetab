@@ -1,0 +1,13 @@
+- version
+- detect if backdrop-filter is enabled and use
+- suggest new Tumblr animated backgrounds
+- my pinned files on IPFS (http://127.0.0.1:5001/ipfs/bafybeianwe4vy7sprht5sm3hshvxjeqhwcmvbzq73u55sdhqngmohkjgs4/#/files)
+- check and tell when an new version is available to download (from UniStore)
+- support sync
+- support updates for addons
+- support updates for the browser (need to keep cmd window open and restart browser)
+- install advanced themes that uses chrome folder (need to keep cmd window open and restart browser)
+- settings page (options HTML)
+- onboarding and upboarding
+
+git add . && git commit -m ""

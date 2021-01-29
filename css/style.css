@@ -120,6 +120,15 @@ body {
     border-radius: 50px
 }
 
+@supports (backdrop-filter: blur(7px)) {
+  #app {
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    background: rgba(255, 255, 255, 0.0) !important;
+    color: #000 !important;
+  }
+}
+
 .search-wrapper {
     padding: 0 0 30px;
 }
@@ -174,4 +183,32 @@ input[type="text"], input[type="search"] {
 }
 .search-wrapper .search-button:active {
     background-color: rgba(12, 12, 13, 0.2);
+}
+
+.site-list, #site-list {
+  margin-top: 30px;
+}
+.list-group-item {
+  list-style-type: none;
+  display: inline-block;
+}
+.list-group-item a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 80px 10px 5px 10px;
+  background: #fff;
+  line-height: 25px;
+  margin-left: 5px;
+  border-radius: 20px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 130px;
+}
+.list-group-item.recommended-sites-item a {
+  max-width: 100%;
+  padding: 10px 10px 5px 10px;
+}
+.list-group-item a img {
+  width: 80px;
 }

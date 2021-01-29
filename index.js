@@ -23,14 +23,26 @@ function updateTime(k) {
 currentTime();
 
 //store the quotations in arrays
-randbackgrounds = new Array(5);
+randbackgrounds = new Array(17);
 randbackgrounds[0] = `<style>body{background:url(https://ipfs.io/ipfs/QmQUJGHkiUwKeSrEypUK9p2T9zMNnndu9UC2dCJKkgsBSx/tumblr_0c141596ee67032d4e8ec627ec8bcaa3_c20e9462_500.gif);background-size:cover}</style>`;
 randbackgrounds[1] = `<style>body{background:url(https://ipfs.io/ipfs/QmQUJGHkiUwKeSrEypUK9p2T9zMNnndu9UC2dCJKkgsBSx/tumblr_lollinapolina_mibqywp5Xo1s5t1i4o1_thanksforthis.gif);background-size:cover}</style>`;
 randbackgrounds[2] = `<style>body{background:url(https://ipfs.io/ipfs/QmQUJGHkiUwKeSrEypUK9p2T9zMNnndu9UC2dCJKkgsBSx/tumblr_mt6ckbr7nY1rl1c0bo1_500.gif);background-size:cover}</style>`;
 randbackgrounds[3] = `<style>body{background:url(https://ipfs.io/ipfs/QmQUJGHkiUwKeSrEypUK9p2T9zMNnndu9UC2dCJKkgsBSx/tumblr_mxt1z3M4zj1rl1c0bo1_500.gif);background-size:cover}</style>`;
 randbackgrounds[4] = `<style>body{background:url(https://ipfs.io/ipfs/QmQUJGHkiUwKeSrEypUK9p2T9zMNnndu9UC2dCJKkgsBSx/tumblr_oeor4w91fG1vx777ao1_500.gif);background-size:cover}</style>`;
-//randbackgrounds[5] = ``;
-//randbackgrounds[6] = ``;
+randbackgrounds[5] = `<style>body{background:url(https://ipfs.io/ipfs/QmdSSfsuqqvG9vCPoEWYwZuZ1ZU28ZRb3fr4usd4AZKWn4/tumblr_34df2144c1a50ebd0a7cfc774389c133_ca36ec9d_400.gif);background-size:cover}`;
+randbackgrounds[6] = `<style>body{background:url(https://ipfs.io/ipfs/QmdSSfsuqqvG9vCPoEWYwZuZ1ZU28ZRb3fr4usd4AZKWn4/tumblr_m5cjtdWlo81qltnf6o1_500.gif);background-size:cover}`;
+randbackgrounds[7] = `<style>body{background:url(https://ipfs.io/ipfs/QmdSSfsuqqvG9vCPoEWYwZuZ1ZU28ZRb3fr4usd4AZKWn4/tumblr_m6hvg2wxAC1qmqy5mo1_400.gif);background-size:cover}`;
+randbackgrounds[8] = `<style>body{background:url(https://ipfs.io/ipfs/QmdSSfsuqqvG9vCPoEWYwZuZ1ZU28ZRb3fr4usd4AZKWn4/tumblr_m8z3wltiAE1rajomio1_250.gif);background-size:cover}`;
+randbackgrounds[9] = `<style>body{background:url(https://ipfs.io/ipfs/QmdSSfsuqqvG9vCPoEWYwZuZ1ZU28ZRb3fr4usd4AZKWn4/tumblr_mevv3kmYyJ1rcut4mo1_400.gif);background-size:cover}`;
+randbackgrounds[10] = `<style>body{background:url(https://ipfs.io/ipfs/QmdSSfsuqqvG9vCPoEWYwZuZ1ZU28ZRb3fr4usd4AZKWn4/tumblr_mi3ky8t3Oj1rl2z8oo1_400.gif);background-size:cover}`;
+randbackgrounds[11] = `<style>body{background:url(https://ipfs.io/ipfs/QmdSSfsuqqvG9vCPoEWYwZuZ1ZU28ZRb3fr4usd4AZKWn4/tumblr_mittselPu41risu7wo1_400.gif);background-size:cover}`;
+randbackgrounds[12] = `<style>body{background:url(https://ipfs.io/ipfs/QmdSSfsuqqvG9vCPoEWYwZuZ1ZU28ZRb3fr4usd4AZKWn4/tumblr_mpxs0yFlNK1r61ts6o1_500.gif);background-size:cover}`;
+randbackgrounds[13] = `<style>body{background:url(https://ipfs.io/ipfs/QmdSSfsuqqvG9vCPoEWYwZuZ1ZU28ZRb3fr4usd4AZKWn4/giphy.gif);background-size:cover}`;
+randbackgrounds[14] = `<style>body{background:url(https://ipfs.io/ipfs/QmdSSfsuqqvG9vCPoEWYwZuZ1ZU28ZRb3fr4usd4AZKWn4/tumblr_mub2v1NqEZ1sp7xx2o1_400.gif);background-size:cover}`;
+randbackgrounds[15] = `<style>body{background:url(https://ipfs.io/ipfs/QmdSSfsuqqvG9vCPoEWYwZuZ1ZU28ZRb3fr4usd4AZKWn4/tumblr_ncsce12NHs1qenlbro1_500.webp);background-size:cover}`;
+randbackgrounds[16] = `<style>body{background:url(https://ipfs.io/ipfs/QmdSSfsuqqvG9vCPoEWYwZuZ1ZU28ZRb3fr4usd4AZKWn4/tumblr_nstt4cTVde1unu1mio1_400.gif);background-size:cover}`;
+//randbackgrounds[17] = ``;
+//randbackgrounds[18] = ``;
 //calculate a random index
 index = Math.floor(Math.random() * randbackgrounds.length);
 //display the quotation
