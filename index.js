@@ -86,7 +86,7 @@ browser.topSites.get()
       //a.innerText = topSite.icon;
       //a.innerText = site.favicon;
       //a.innerText += site.icon;
-      a.innerText = '<img src="https://www.google.com/s2/favicons?sz=128&domain_url=' + site.url + '"/>'
+      a.innerText = '<img src="https://www.google.com/s2/favicons?sz=128&domain_url=' + site.url + '"/><br/> '
       a.innerText += site.title || site.url;
       li.appendChild(a);
       ul.appendChild(li);
