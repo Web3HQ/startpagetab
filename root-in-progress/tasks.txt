@@ -1,3 +1,5 @@
+make two updates without changing version, bc the recent version changes are invalid
+
 - version
 - detect if backdrop-filter is enabled and use
 - suggest new Tumblr animated backgrounds
@@ -10,4 +12,4 @@
 - settings page (options HTML)
 - onboarding and upboarding
 
-git add . && git commit -m "New approach to support favicons on Top Sites"
+git add . && git commit -m ""
