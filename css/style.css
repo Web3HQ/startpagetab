@@ -112,7 +112,7 @@ body {
     --trailhead-card-button-background-active-color: rgba(12, 12, 13, 0.7); }
 
 .prompt.clock-area img{width:32px}
-.prompt.clock-area{font-size:32px;color:#282a36}
+.prompt.clock-area{font-size:32px;color:#000000}
 
 #app {
     background: #ffffff85;
@@ -122,9 +122,9 @@ body {
 
 @supports (backdrop-filter: blur(7px)) {
   #app {
-    backdrop-filter: blur(7px);
+    backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(7px);
-    background: rgba(255, 255, 255, 0.0) !important;
+    background: rgba(255, 255, 255, 0.2) !important;
     color: #000 !important;
   }
 }
