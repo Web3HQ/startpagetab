@@ -12,4 +12,4 @@ make three updates without changing version, bc the recent version changes are i
 - settings page (options HTML)
 - onboarding and upboarding
 
-git add . && git commit -m ""
+git add . && git commit -m "New fix to previous commits"
