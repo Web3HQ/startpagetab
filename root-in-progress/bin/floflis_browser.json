@@ -1,7 +1,7 @@
 {
   "name": "floflis_browser",
   "description": "Manage Plasmozill Firefloflis, Plasmoogle Fhrome and others, mediating the communication between an extension and the OS. This is an host using native messaging.",
-  "path": "/usr/lib/floflis/floflis_browser/flobrowser",
+  "path": "/usr/lib/floflis/browser/flobrowser",
   "type": "stdio",
-  "allowed_extensions": [ "{0d9010b7-f270-4893-9a4f-da4d5aef4b3b}" ]
+  "allowed_extensions": [ "{0d9010b7-f270-4893-9a4f-da4d5aef4b3b}", "floflis_browser@floflis.eth" ]
 }

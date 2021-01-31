@@ -13,5 +13,6 @@
 - port for Internet Cat and its early support for extensions
 - Floflis apps/widgets
 - Option to set and default background instead of random, for both app and OS
+- change title according to browser (Plasmozill Firefloflis, Plasmoogle Fhrome, Chrome, Firefox, Opera, Edge)
 
-git add . && git commit -m "fixed background size when scrolling, more context for Recommended Sites"
+git add . && git commit -m ""

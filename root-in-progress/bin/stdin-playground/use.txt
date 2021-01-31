@@ -1,2 +1,5 @@
 command:
 ./ping.sh | ./pong.sh
+
+can also test:
+echo "ping" | ./pong.sh
