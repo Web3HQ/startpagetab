@@ -10,4 +10,4 @@
 - settings page (options HTML)
 - onboarding and upboarding
 
-git add . && git commit -m ""
+git add . && git commit -m "New approach to support favicons on Top Sites"
