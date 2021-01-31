@@ -1,0 +1,2 @@
+command:
+./writer.sh | ./reader.sh

@@ -1,0 +1,2 @@
+command:
+./ping.sh | ./pong.sh
