@@ -1,9 +1,5 @@
-make four updates without changing version, bc the recent version changes are invalid
-
 - version
-- detect if backdrop-filter is enabled and use
 - suggest new Tumblr animated backgrounds
-- my pinned files on IPFS (http://127.0.0.1:5001/ipfs/bafybeianwe4vy7sprht5sm3hshvxjeqhwcmvbzq73u55sdhqngmohkjgs4/#/files)
 - check and tell when an new version is available to download (from UniStore)
 - support sync
 - support updates for addons
@@ -12,4 +8,4 @@ make four updates without changing version, bc the recent version changes are in
 - settings page (options HTML)
 - onboarding and upboarding
 
-git add . && git commit -m ""
+git add . && git commit -m "Better spacing for Top Sites' items, center align Top Site's favicons, dont use a:visited style for Top Sites' text, blur effect for Top Sites' items, fix CSS for blur effect, support for '-webkit' flag in backdrop blur in CSS, effect in borders of Top Sites' items, hover effect for Top Sites' items, basic fix for 'a:active', button to open IPFS pinned files (alpha)"
