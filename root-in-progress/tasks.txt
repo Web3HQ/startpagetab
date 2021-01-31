@@ -10,4 +10,4 @@
 - settings page (options HTML)
 - onboarding and upboarding
 
-git add . && git commit -m "fixes for blur effect (out of beta), remove unnecessary img, black color for date/time icon and text, Qwant search engine icon from IPFS"
+git add . && git commit -m ""
