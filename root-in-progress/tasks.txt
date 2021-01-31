@@ -1,11 +1,17 @@
-- version
 - suggest new Tumblr animated backgrounds
-- check and tell when an new version is available to download (from UniStore)
+- version
+- detect if local IPFS isn't available and dont show IPFS Files button
 - support sync
 - support updates for addons
+- check and tell when an new version is available to download (from UniStore)
 - support updates for the browser (need to keep cmd window open and restart browser)
 - install advanced themes that uses chrome folder (need to keep cmd window open and restart browser)
 - settings page (options HTML)
 - onboarding and upboarding
+- FAQ: sometimes a blank background (solution: use IPFS Desktop + IPFS Companion if you're not using our browser)
+- detect if running on firefox or chrome (top sites on firefox, most visited on chrome)
+- port for Internet Cat and its early support for extensions
+- Floflis apps/widgets
+- Option to set and default background instead of random, for both app and OS
 
-git add . && git commit -m "Better spacing for Top Sites' items, center align Top Site's favicons, dont use a:visited style for Top Sites' text, blur effect for Top Sites' items, fix CSS for blur effect, support for '-webkit' flag in backdrop blur in CSS, effect in borders of Top Sites' items, hover effect for Top Sites' items, basic fix for 'a:active', button to open IPFS pinned files (alpha)"
+git add . && git commit -m "fixed background size when scrolling, more context for Recommended Sites"
